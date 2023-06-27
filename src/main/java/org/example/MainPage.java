@@ -23,6 +23,15 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "//div[@id='narbar-menu']//a[text()='Show All Desktops']")
     private WebElement showAllDesktops;
 
+    @FindBy(xpath = "//a[span[text()='Currency']]//strong")
+    private WebElement currencySign;
+
+    @FindBy(xpath = "//div[@class='product-thumb']//a[text()='iPhone']")
+    private WebElement iPhoneOnMainPage;
+
+    @FindBy(xpath = "//a[@class='nav-link' and text()='Cameras']")
+    private WebElement cameras;
+
     public MainPage() {
         PageFactory.initElements(getDriver(), this);
     }
@@ -58,6 +67,21 @@ public class MainPage extends BasePage {
         AllDesktopsPage allDesktopsPage = new AllDesktopsPage();
         showAllDesktops.click();
         return new AllDesktopsPage();
+    }
+
+    public String getCurrencySign() {
+        return currencySign.getText();
+    }
+
+    public IPhonePage clickOnIPhone(){
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        executor.executeScript("arguments[0].click()", iPhoneOnMainPage);
+        return new IPhonePage();
+    }
+
+    public CamerasPage clickOnCameras(){
+        cameras.click();
+        return new CamerasPage();
     }
 
 

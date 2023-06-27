@@ -17,4 +17,5 @@ public class LoginPage extends BasePage {
         forgottenPasswordLocator.click();
         return new ForgottenPasswordPage();
     }
+
 }

@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd59a659-576d-4e79-887b-b4c1ce32b5e3" name="Changes" comment="Rename test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AllDesktopsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
+    <list default="true" id="cd59a659-576d-4e79-887b-b4c1ce32b5e3" name="Changes" comment="Test 3 in a progress">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CamerasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IPhonePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCamerasQuantityAndPrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCurrencyAndPrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestShowDropdownAndSortByDropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AllDesktopsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AllDesktopsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Selenium-Lab2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Selenium-Lab2/src/main/java&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Projects/Selenium-Lab2/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -48,46 +55,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Selenium-Lab2\src\main\java" />
       <recent name="C:\Projects\Selenium-Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test2.testCheckShow">
-    <configuration name="Test2.testCheckShow" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-Lab2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="testCheckShow" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2.testCheckShowAndSortBy" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-Lab2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="testCheckShowAndSortBy" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2.testCheckSortBy" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-Lab2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="testCheckSortBy" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestCamerasQuantityAndPrices.testCamerasExistenceAndPrices">
     <configuration name="TestAlertMessage.testAlertMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Lab2" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,11 +72,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBrandsButtonAndBrandsExist.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCamerasQuantityAndPrices.testCamerasExistenceAndPrices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Lab2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBrandsButtonAndBrandsExist" />
-      <option name="METHOD_NAME" value="testOne" />
+      <option name="MAIN_CLASS_NAME" value="TestCamerasQuantityAndPrices" />
+      <option name="METHOD_NAME" value="testCamerasExistenceAndPrices" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCurrencyAndPrices.testCheckCurrencyAndPrices" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Lab2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCurrencyAndPrices" />
+      <option name="METHOD_NAME" value="testCheckCurrencyAndPrices" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQuantityOfProductsAndQuantityOfPages.testCheckShow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Lab2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestQuantityOfProductsAndQuantityOfPages" />
+      <option name="METHOD_NAME" value="testCheckShow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShowDropdownAndSortByDropdown.testSortBy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Lab2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestShowDropdownAndSortByDropdown" />
+      <option name="METHOD_NAME" value="testSortBy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test2.testCheckShow" />
+        <item itemvalue="TestNG.TestCamerasQuantityAndPrices.testCamerasExistenceAndPrices" />
+        <item itemvalue="TestNG.TestCurrencyAndPrices.testCheckCurrencyAndPrices" />
+        <item itemvalue="TestNG.TestShowDropdownAndSortByDropdown.testSortBy" />
+        <item itemvalue="TestNG.TestQuantityOfProductsAndQuantityOfPages.testCheckShow" />
         <item itemvalue="TestNG.TestAlertMessage.testAlertMessage" />
-        <item itemvalue="TestNG.Test2.testCheckSortBy" />
-        <item itemvalue="TestNG.Test2.testCheckShowAndSortBy" />
-        <item itemvalue="TestNG.TestBrandsButtonAndBrandsExist.testOne" />
       </list>
     </recent_temporary>
   </component>
@@ -145,12 +153,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687372483421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test 3 in a progress">
+      <created>1687705618993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687705618993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Rename test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename test" />
+    <MESSAGE value="Test 3 in a progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 3 in a progress" />
   </component>
 </project>
