@@ -38,19 +38,20 @@ public class IPhonePage extends BasePage {
         return this;
     }
 
+    // Першочергово getIPhonePriceEuro виглядала так само, як getIPhonePriceDollars
+    //Але її спростили. Прибрали String priceText= і вставили в iPhonePrice.getText()
     public double getIPhonePriceEuro() {
-        String priceText = iPhonePrice.getText();
-        return StringUtils.extractPriceValue(priceText);
+        return StringUtils.extractPriceValue(iPhonePrice.getText());
     }
 
     public IPhonePage clickOnGBP() {
         poundSterlingCurrency.click();
         return this;
     }
-
+    // Першочергово getIPhonePricePoundsSterling виглядала так само, як getIPhonePriceDollars
+    //Але її спростили. Прибрали String priceText= і вставили в iPhonePrice.getText()
     public double getIPhonePricePoundsSterling() {
-        String priceText = iPhonePrice.getText();
-        return StringUtils.extractPriceValue(priceText);
+        return StringUtils.extractPriceValue(iPhonePrice.getText());
     }
 
 }

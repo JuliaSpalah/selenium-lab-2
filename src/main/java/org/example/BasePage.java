@@ -32,8 +32,6 @@ public class BasePage {
 //
 //    }
 
-    @FindBy(xpath = "//div[@id='alert']//div")
-    private WebElement alertMessage;
 
     public void waitSeconds(long seconds) {
         try {
@@ -43,10 +41,7 @@ public class BasePage {
         }
     }
 
-    public String getAlertMessageAfterSecond() {
-        waitSeconds(1);
-        return alertMessage.getText();
-    }
+
 
 
 }

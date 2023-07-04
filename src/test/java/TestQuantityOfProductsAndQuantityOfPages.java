@@ -32,8 +32,8 @@ public class TestQuantityOfProductsAndQuantityOfPages extends BaseTest {
         assertEquals(actualResultQuantityOfProducts, 10, "Products thumbnails count should be equals 10");
 
         int actualResultQuantityOfProducts2 = allDesktopsPage
-                .clickOnShowDropdown()
-                .clickOnShowDropdown25()
+               // .clickOnShowDropdown()
+                .select25FromShowDropdown("25")
                 .getQuantityOfProducts2();
         assertEquals(actualResultQuantityOfProducts2, 12, "Products thumbnails count should be equals 12");
 

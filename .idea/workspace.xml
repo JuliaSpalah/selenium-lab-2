@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd59a659-576d-4e79-887b-b4c1ce32b5e3" name="Changes" comment="Test 3 in a progress">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CamerasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IPhonePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCamerasQuantityAndPrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCurrencyAndPrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestShowDropdownAndSortByDropdown.java" afterDir="false" />
+    <list default="true" id="cd59a659-576d-4e79-887b-b4c1ce32b5e3" name="Changes" comment="All tests are ready">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Testng.xml4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AllDesktopsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AllDesktopsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CamerasPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CamerasPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ForgottenPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ForgottenPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IPhonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IPhonePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCurrencyAndPrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPhoneCurrencyAndPrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestQuantityOfProductsAndQuantityOfPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestQuantityOfProductsAndQuantityOfPages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="C:\Projects\Selenium-Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCamerasQuantityAndPrices.testCamerasExistenceAndPrices">
+  <component name="RunManager" selected="TestNG.TestQuantityOfProductsAndQuantityOfPages.testCheckShow">
     <configuration name="TestAlertMessage.testAlertMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Lab2" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,10 +84,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCurrencyAndPrices.testCheckCurrencyAndPrices" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIPhoneCurrencyAndPrices.testCheckCurrencyAndPrices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Lab2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCurrencyAndPrices" />
+      <option name="MAIN_CLASS_NAME" value="TestIPhoneCurrencyAndPrices" />
       <option name="METHOD_NAME" value="testCheckCurrencyAndPrices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCamerasQuantityAndPrices.testCamerasExistenceAndPrices" />
-        <item itemvalue="TestNG.TestCurrencyAndPrices.testCheckCurrencyAndPrices" />
-        <item itemvalue="TestNG.TestShowDropdownAndSortByDropdown.testSortBy" />
         <item itemvalue="TestNG.TestQuantityOfProductsAndQuantityOfPages.testCheckShow" />
+        <item itemvalue="TestNG.TestIPhoneCurrencyAndPrices.testCheckCurrencyAndPrices" />
         <item itemvalue="TestNG.TestAlertMessage.testAlertMessage" />
+        <item itemvalue="TestNG.TestCamerasQuantityAndPrices.testCamerasExistenceAndPrices" />
+        <item itemvalue="TestNG.TestShowDropdownAndSortByDropdown.testSortBy" />
       </list>
     </recent_temporary>
   </component>
@@ -160,13 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687705618993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All tests are ready">
+      <created>1687880933509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687880933509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Rename test" />
     <MESSAGE value="Test 3 in a progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 3 in a progress" />
+    <MESSAGE value="All tests are ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tests are ready" />
   </component>
 </project>

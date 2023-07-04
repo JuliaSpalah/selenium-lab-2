@@ -33,9 +33,10 @@ public class CamerasPage extends BasePage {
         return StringUtils.extractPriceValue(priceText);
     }
 
+    // Першочергово getNewPriceFirstCamera виглядала так само, як getOldPriceFirstCamera
+    //Але її спростили. Прибрали String priceText= і вставили в StringUtils.extractPriceValue()
     public double getNewPriceFirstCamera() {
-        String priceText = newPriceFirstCamera.getText();
-        return StringUtils.extractPriceValue(priceText);
+        return StringUtils.extractPriceValue(newPriceFirstCamera.getText());
 
     }
 

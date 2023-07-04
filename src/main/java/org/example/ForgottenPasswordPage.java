@@ -12,6 +12,9 @@ public class ForgottenPasswordPage extends BasePage {
     @FindBy(xpath = "//button[text()='Continue']")
     private WebElement continueButtonForgottenPasswordLocator;
 
+    @FindBy(xpath = "//div[@id='alert']//div")
+    private WebElement alertMessage;
+
     public ForgottenPasswordPage() {
         PageFactory.initElements(getDriver(), this);
     }
@@ -24,5 +27,10 @@ public class ForgottenPasswordPage extends BasePage {
     public ForgottenPasswordPage clickOnContinueButton() {
         continueButtonForgottenPasswordLocator.click();
         return this;
+    }
+
+    public String getAlertMessageAfterSecond() {
+        waitSeconds(1);
+        return alertMessage.getText();
     }
 }

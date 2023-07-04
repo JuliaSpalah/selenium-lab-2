@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Run all tests" verbose="1">
+
+    <test name="Test 1">
+
+        <classes>
+            <class name="TestAlertMessage"/>
+
+            <class name="TestBrandsButtonAndBrandsExist"/>
+
+            <class name="TestCamerasQuantityAndPrices"/>
+
+            <class name="TestIPhoneCurrencyAndPrices"/>
+
+            <class name="TestQuantityOfProductsAndQuantityOfPages"/>
+
+            <class name="TestShowDropdownAndSortByDropdown"/>
+        </classes>
+
+</test>
+
+</suite>

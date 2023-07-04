@@ -13,7 +13,6 @@ public class LoginPage extends BasePage {
     }
 
     public ForgottenPasswordPage clickOnForgottenPassword() {
-        ForgottenPasswordPage forgottenPasswordPage = new ForgottenPasswordPage();
         forgottenPasswordLocator.click();
         return new ForgottenPasswordPage();
     }

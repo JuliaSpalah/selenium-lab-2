@@ -20,7 +20,10 @@ public class AllDesktopsPage extends BasePage {
     @FindBy(xpath = "//div[@class='product-thumb']")
     private List<WebElement> productThumbs;
 
-    @FindBy(xpath = "//div[label[text()='Show']]//select")
+    // @FindBy(xpath = "//div[label[text()='Show']]//select")
+    //private WebElement showDropDown;
+
+    @FindBy(xpath = "//select[@id='input-limit']")
     private WebElement showDropDown;
 
     @FindBy(xpath = "//div[label[text()='Show']]//option[text()='25']")
@@ -62,13 +65,19 @@ public class AllDesktopsPage extends BasePage {
         return productThumbs.size();
     }
 
-    public AllDesktopsPage clickOnShowDropdown() {
-        showDropDown.click();
-        return this;
-    }
+  //  public AllDesktopsPage clickOnShowDropdown() {
+  //      showDropDown.click();
+   //     return this;
+  //  }
 
-    public AllDesktopsPage clickOnShowDropdown25() {
-        showDropDown25.click();
+//    public AllDesktopsPage clickOnShowDropdown25() {
+//        showDropDown25.click();
+//        return this;
+//    }
+
+    public AllDesktopsPage select25FromShowDropdown(String value) {
+        Select select = new Select(showDropDown);
+        select.selectByVisibleText(value);
         return this;
     }
 
@@ -109,7 +118,7 @@ public class AllDesktopsPage extends BasePage {
         return this;
     }
 
-    public List<Double> getProductPrices(){
+    public List<Double> getProductPrices() {
         return productPrices.stream()
                 .map(WebElement::getText)
                 .map(StringUtils::extractPriceValue)
