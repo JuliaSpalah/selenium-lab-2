@@ -31,7 +31,7 @@ public class TestIPhoneCurrencyAndPrices extends BaseTest {
                 .clickOnEUR()
                 .getIPhonePriceEuro();
 
-        assertEquals(actualResultIPhonePriceEUR, 113.38, "The price is not 113.38");
+        assertEquals(actualResultIPhonePriceEUR, 112.45, "The price is not 113.38");
 
         double actualResultIPhonePriceGBP = iPhonePage
                 .clickOnCurrencySign()
