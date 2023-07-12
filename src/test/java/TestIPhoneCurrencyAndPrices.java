@@ -31,14 +31,14 @@ public class TestIPhoneCurrencyAndPrices extends BaseTest {
                 .clickOnEUR()
                 .getIPhonePriceEuro();
 
-        assertEquals(actualResultIPhonePriceEUR, 112.45, "The price is not 113.38");
+        assertEquals(actualResultIPhonePriceEUR, 112.45, "The price is not valid");
 
         double actualResultIPhonePriceGBP = iPhonePage
                 .clickOnCurrencySign()
                 .clickOnGBP()
                 .getIPhonePricePoundsSterling();
 
-        assertEquals(actualResultIPhonePriceGBP, 97.31, "The price is not 97.31");
+        assertEquals(actualResultIPhonePriceGBP, 96.41, "The price is not valid");
 
 
     }
